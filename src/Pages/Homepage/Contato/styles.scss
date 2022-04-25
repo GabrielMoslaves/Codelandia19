@@ -1,0 +1,37 @@
+.contato-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../Components/Images/laptop.png");
+  background-size: 100%;
+  color: white;
+  padding: 40px 0 80px 0;
+  gap: 20px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: center;
+    gap: 50px;
+
+    .text {
+      padding: 10px;
+    }
+  }
+  .bottom {
+    display: flex;
+    gap: 30px;
+
+    .input {
+      width: 300px;
+      background: none;
+      border-style: hidden;
+      border-bottom: solid 1px #ffffff;
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.apresentacao-background {
+  background-color: #eff8ff;
+
+
+
+
+  .apresentacao-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+  margin: 0 auto;
+    .working-image {
+      max-width: 400px;
+    }
+  }
+}

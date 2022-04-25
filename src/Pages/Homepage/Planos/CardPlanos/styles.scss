@@ -1,0 +1,40 @@
+.card-plano-container {
+  max-width: 300px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 30px;
+  gap: 20px;
+
+  .plano {
+    font-weight: 600;
+    font-size:20px;
+  }
+  .prefer-button {
+    box-shadow: none;
+  }
+  .price {
+    display: flex;
+  }
+  .cifra {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .valor {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .mes {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
