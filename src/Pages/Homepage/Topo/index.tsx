@@ -3,9 +3,9 @@ import HeaderLogo from '../../../Components/Images/HeaderLogo.png'
 
 function Topo() {
   return (
-    <div className="header-container">
+    <header className="header-container">
       <div className="left">
-        <img src={HeaderLogo}/>
+        <img src={HeaderLogo} />
       </div>
       <div className="right">
         <div>Funcionalidades</div>
@@ -13,7 +13,7 @@ function Topo() {
         <div>Planos</div>
         <div>Contato</div>
       </div>
-    </div>
+    </header>
   );
 }
 

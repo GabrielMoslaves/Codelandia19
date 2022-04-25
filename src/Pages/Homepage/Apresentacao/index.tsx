@@ -19,7 +19,7 @@ function Apresentacao() {
           </Button>
         </div>
 
-        <img className="working-image" src={Working} />
+        <img alt="working" className="working-image" src={Working} />
       </div>
     </div>
   );

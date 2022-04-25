@@ -4,7 +4,7 @@ import "./styles.scss";
 
 interface Props {
   plano: string;
-  valor: string;
+  valor: number;
   background?: string;
   color?: string;
   fontSize?: string;
@@ -19,7 +19,7 @@ function CardPlanos({
   color,
   fontSize,
   padding,
-  hasButton = false
+  hasButton,
 }: Props) {
   return (
     <Card backgroundColor={background}>
@@ -27,7 +27,11 @@ function CardPlanos({
         <div style={{ fontSize }} className="plano">
           {plano}
         </div>
-        {hasButton? (<Button className="prefer-button" fontSize="13px"padding="01px 30px">PREFERIDO</Button>) : ''}
+        {hasButton && (
+          <Button className="prefer-button" fontSize="13px" padding="01px 30px">
+            PREFERIDO
+          </Button>
+        )}
         <div className="price">
           <div className="cifra">R$</div>
           <div className="valor">{valor}</div>

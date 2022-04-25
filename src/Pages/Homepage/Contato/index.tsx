@@ -13,7 +13,7 @@ function Contato() {
         </div>
       </div>
       <div className="bottom">
-        <input placeholder='Seu melhor e-mail aqui' className="input"></input>
+        <input placeholder='Seu melhor e-mail aqui' className="input" />
         <Button> Enviar </Button>
       </div>
     </div>

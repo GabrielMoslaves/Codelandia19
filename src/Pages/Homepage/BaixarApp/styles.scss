@@ -1,24 +1,25 @@
 .download-wrapper {
-  background-color: #EFF8FF;
+  background-color: #eff8ff;
+
   .download-container {
     max-width: 900px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
   }
+
   .download-left {
     gap: 20px;
     display: flex;
     flex-direction: column;
   }
-  .download-buttons{
+
+  .download-buttons {
     display: flex;
   }
 
   .text {
     max-width: 400px;
   }
-
 }

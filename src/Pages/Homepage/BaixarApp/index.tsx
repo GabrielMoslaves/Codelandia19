@@ -16,12 +16,12 @@ function BaixarApp() {
             volutpat hac adipiscing tincidunt pretium.
           </div>
           <div className="download-buttons">
-            <img width='130px'src={appstore}/>
-            <img width='130px' src={googleplay}/>
+            <img alt="appstore" width='130px' src={appstore} />
+            <img alt="googleplay" width='130px' src={googleplay} />
           </div>
         </div>
         <div className="download-right">
-          <img width='350px'src={downloadimg}/>
+          <img alt="download" width='350px' src={downloadimg} />
         </div>
       </div>
     </div>

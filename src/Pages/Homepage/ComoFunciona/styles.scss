@@ -2,14 +2,17 @@
   margin: 0 auto;
   max-width: 900px;
   padding: 60px 0;
+
   .title2 {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
   }
+
   .itens-wrapper {
     display: flex;
     justify-content: space-between;
+
     .first-item {
       display: flex;
       flex-direction: column;
